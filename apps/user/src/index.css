@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Urbanist', sans-serif;
+}
+
+@layer base {
+  .nav-item {
+    @apply textLight textDark mx-2 font-medium text-xl hover:text-primary dark:hover:text-primary transition-all before:transition-all relative before:absolute before:bottom-[-1px] before:left-0 before:w-0 before:h-[3px] before:bg-primary before:opacity-0 hover:before:w-full hover:before:opacity-[1];
+  }
+  .textDarkGray {
+    @apply;
+  }
+  .textDark {
+    @apply dark:text-lightColor;
+  }
+  .textLight {
+    @apply text-darkGray;
+  }
+  .user-icon {
+    @apply opacity-0 invisible delay-75 dark:bg-lightColor bg-darkMode p-3 min-w-[180px] text-sm rounded-md left-[50%] top-[100%] absolute translate-x-[-50%] transition-all duration-200;
+  }
+  .title {
+    @apply mt-8 mb-4 w-full font-bold text-3xl textLight textDark border-b-[2px] pb-2 relative border-slate-300 dark:border-slate-600  before:absolute before:bottom-[-2px] before:left-0 before:bg-darkGray dark:before:bg-lightColor before:w-1/3 before:h-[2px];
+  }
+
+  .userTable {
+    @apply bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700;
+  }
+}
