@@ -3,8 +3,8 @@
 `MERN stack`, `Tailwind CSS`, `Razorpay` for payments, `ZOD` for validation, `Recoil` for state managements, `TypeScript`
 
 ### Demo of the project:
-https://www.youtube.com/watch?v=Dlxz9RnltMA&ab_channel=SachinMittal
-https://e-commerce-app-user.vercel.app/
+- https://www.youtube.com/watch?v=Dlxz9RnltMA&ab_channel=SachinMittal
+- https://e-commerce-app-user.vercel.app/
 
 ## Key Feature
 - Admin Dashbaord where admin can Create Prodcut,  Edit any user details and access, check all the orders
