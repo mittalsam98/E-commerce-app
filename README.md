@@ -1,15 +1,15 @@
-# This is E-Commerce App using Monorepo
+# This is an E-Commerce App using Monorepo
 ## Tech Stack Used
-`MERN stack`, `Tailwind CSS`, `Razorpay` for payments, `ZOD` for validation, `Recoil` for state managements, `TypeScript`
+`MERN stack`, `Tailwind CSS`, `Razorpay` for payments, `ZOD` for validation, `Recoil` for state management, `TypeScript`
 
 ### Demo of the project:
 - https://www.youtube.com/watch?v=Dlxz9RnltMA&ab_channel=SachinMittal
-- https://e-commerce-app-user.vercel.app/
+- https://e-commerce-app-user.vercel.app/ (Some issue is with deployment, WIP)
 
 ## Key Feature
-- Admin Dashbaord where admin can Create Prodcut,  Edit any user details and access, check all the orders
+- Admin Dashboard where admin can Create Products,  Edit any user details and access, check all the orders
 - Dark and Light Mode
-- Real time payments
+- Real-time payments
 - Cart functionality
 
 ### Apps and Packages
@@ -20,7 +20,7 @@
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-### Hi there 👋 I am Sachin, a full stack web and app developer. I love to build new things that excites me a lot.
+### Hi there 👋 I am Sachin, a full-stack web and app developer. I love to build new things that excite me a lot.
 
 # buy-me-a-coffee
 Liked some of my work? Buy me a coffee (or more likely a beer) as it motivates me to build new things 😊
